@@ -3,6 +3,9 @@ products:
   - id: daxvacilskoxsl2c
     manufacturer: Cecotec
     model: Conga S1970
+  - id: daxvacilskoxsl2c
+    manufacturer: Cecotec
+    model: Conga S1790
 entities:
   - entity: vacuum
     dps:
@@ -56,35 +59,35 @@ entities:
         name: status
         mapping:
           - dps_val: sleep
-            value: Sleep
+            value: sleep
           - dps_val: Standby
-            value: Standby
+            value: standby
           - dps_val: Cleaning
-            value: Cleaning
+            value: cleaning
           - dps_val: Cleaning_Auto
-            value: Cleaning_Auto
+            value: cleaning_auto
           - dps_val: Cleaning_Random
-            value: Cleaning_Random
+            value: cleaning_random
           - dps_val: Cleaning_Sroom
-            value: Cleaning_Sroom
+            value: cleaning_sroom
           - dps_val: Cleaning_Edge
-            value: Cleaning_Edge
+            value: cleaning_edge
           - dps_val: Cleaning_Spot
-            value: Cleaning_Spot
+            value: cleaning_spot
           - dps_val: Clean_Comp
-            value: Clean_Comp
+            value: clean_comp
           - dps_val: Docking
-            value: Docking
+            value: returning
           - dps_val: ChargeGo
-            value: Returning
+            value: returning
           - dps_val: Charging_Base
-            value: Charging
+            value: charging
           - dps_val: Charging_DC
-            value: Charging
+            value: charging
           - dps_val: Charge_Comp
-            value: Docked
+            value: docked
           - dps_val: Fault
-            value: Error
+            value: error
       - id: 13
         type: boolean
         optional: true
